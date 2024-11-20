@@ -1,5 +1,5 @@
 import './App.css'
-import ContadorClase from './componets.ContadorClase'
+import ContadorClase from './components/ContadorClase'
 
 function App() {
   

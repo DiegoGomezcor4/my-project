@@ -19,5 +19,16 @@ class ContadorClase extends Component {
 
     render(){
 
+        const { conteo } = this.state;
+
+        return (
+            <div>
+                <h1>Contador de clicks</h1>
+                <p>conteo:{conteo}</p>
+                <button onClick={this.incrementar}> Sumar Click </button>
+                <button onClick={this.reducir}>Restar Click</button>
+            </div>
+        );
+
     }
 }
