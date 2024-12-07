@@ -1,5 +1,6 @@
 import './App.css'
-import ContadorClase from './components/ContadorClase'
+import ContadorClase from '/components/ContadorClase.jsx'
+
 
 function App() {
   

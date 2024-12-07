@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 
+
+
 class ContadorClase extends Component {
     constructor(props){
         super(props);
@@ -32,3 +34,5 @@ class ContadorClase extends Component {
 
     }
 }
+
+export default ContadorClase
